@@ -669,10 +669,10 @@ func getURL(token, guildID, newURL, pass string, once bool) {
 func main() {
 	// Initialize the logger
 	initLogger()
-	setTitle("özdemirflex")
+	setTitle("Canquest")
 	// Initial log messages
 	for i := 0; i < 9; i++ {
-		logInfo("Configs", "ÖZDEMİRFLEX")
+		logInfo("Configs", "Canquest ")
 	}
 
 	// Load configuration from config.json
