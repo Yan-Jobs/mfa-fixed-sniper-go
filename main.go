@@ -669,10 +669,10 @@ func getURL(token, guildID, newURL, pass string, once bool) {
 func main() {
 	// Initialize the logger
 	initLogger()
-	setTitle("Canquest")
+	setTitle("github.com/Yan-Jobs")
 	// Initial log messages
 	for i := 0; i < 9; i++ {
-		logInfo("Configs", "Canquest ")
+		logInfo("Configs", "Yan-Jobs")
 	}
 
 	// Load configuration from config.json
@@ -768,7 +768,7 @@ func main() {
 
 	logInfo("Checker", "Updating vanity URL...")
 
-	//getURL(config.Token, config.GuildID, config.NewVanityURL, config.Password, true)
+	getURL(config.Token, config.GuildID, config.NewVanityURL, config.Password, true)
 
 	logInfo("Checker", "Initial vanity URL update attempted.")
 
@@ -798,7 +798,7 @@ func main() {
 	stop := make(chan os.Signal, 1)
 	signal.Notify(stop, os.Interrupt, syscall.SIGTERM)
 	clearConsole()
-	//logInfo("Connection", "Bot is running. Listening to Discord events...")
+	logInfo("Connection", "Bot is running. Listening to Discord events...")
 
 	<-stop
 	logInfo("Connection", "Shutting down gracefully...")
