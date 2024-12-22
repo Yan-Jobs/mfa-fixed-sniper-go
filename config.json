@@ -1,7 +1,8 @@
 {
-    "Token": "TOKEN",
-    "SelfToken": "SELF TOKEN",
-    "Password": "PASSWORD",
-    "GuildID": "GUILD ID",
-    "WebhookURL": "WEBHOOK URL"
+    "token": "your account token",
+    "self": "your account token",
+    "password": "your password",
+    "guild_id": "guild id",
+    "new_vanity_url": "vanity you want",
+    "webhook_url": "webhook url"
 }
